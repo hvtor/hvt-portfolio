@@ -1,255 +1,247 @@
-body{
-	background-image: url(../resources/blackgrain.jpg)
-}
+@media all and (min-width: 679px) and (max-width: 1440px) {
 
-.background{
-	width: 100%;
-}
+	body{
+		background-image: url(../resources/blackgrain.jpg)
+	}
 
-.ipadcontainer{
+	.background{
+		width: 100%;
+	}
 
-	margin: 0 10% 10% 5%;
-}
-.bodycontainer{
-  padding:10% 30% 10% 15%;
-  float: left;
-  border: 1px solid #fafafa;
-}
+	.ipadcontainer{
 
-.headname	{
-	margin:-600px auto 20% 53%;
-	padding: -10% 40% 30% 10%;
-	width: 60%;
-	font-size: 320%;
-	font-family: 'Leckerli One', cursive;
-	color: #fafafa;
-	text-shadow: 2px 2px #red, 3px 2px red, 2px 2px red, 2px 3px red;
-	text-align: center;
-}
+		margin: 0 10% 10% 5%;
+	}
+	.bodycontainer{
+	  padding:10% 30% 10% 15%;
+	  float: left;
+	  border: 1px solid #fafafa;
+	}
 
-.boiler{
-	float: left;
-	color: #444;
-	width: 23%;
-	
-	font-size: 145%;
-	font-family: 'Signika Negative', sans-serif;
-	padding: 2% 2% 2% 2%;
-	margin: -18% auto auto 70%;
-	text-align: center;
-	background-color: #fafafa;
-	border-radius: 4px;
-}	
-	
-span {	
-	color: #fd7b00
-}
-.background{
-	/*margin-top:10px;*/
-	-webkit-gradient(diadonal, center center, 0px, center center, 100%, color-stop(0%,rgba(254,255,255,1)), color-stop(50%,rgba(221,241,249,1)), color-stop(100%,rgba(180,220,234,1))); /* Chrome,Safari4+ */
+	.headname	{
+		margin:-600px auto 20% 53%;
+		padding: -10% 40% 30% 10%;
+		width: 60%;
+		font-size: 320%;
+		font-family: 'Leckerli One', cursive;
+		color: #fafafa;
+		text-shadow: 2px 2px #red, 3px 2px red, 2px 2px red, 2px 3px red;
+		text-align: center;
+	}
 
-}
+	.boiler{
+		float: left;
+		color: #444;
+		width: 23%;
+		
+		font-size: 145%;
+		font-family: 'Signika Negative', sans-serif;
+		padding: 2% 2% 2% 2%;
+		margin: -18% auto auto 70%;
+		text-align: center;
+		background-color: #fafafa;
+		border-radius: 4px;
+	}	
+		
+	span {	
+		color: #fd7b00
+	}
+	.background{
+		/*margin-top:10px;*/
+		-webkit-gradient(diadonal, center center, 0px, center center, 100%, color-stop(0%,rgba(254,255,255,1)), color-stop(50%,rgba(221,241,249,1)), color-stop(100%,rgba(180,220,234,1))); /* Chrome,Safari4+ */
 
-.ipad{
+	}
 
-	margin: 1% 40% auto 5%;
-	
-	height: 740px;
-	width: 560px;
+	.ipad{
 
-	background: -webkit-linear-gradient(12deg, rgba(255,255,255,1) 0%,rgba(247,247,247,1) 60%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
-	background: -moz-linear-gradient(top,  #ffffff 0%, #fafafa 50%, #ffffff 100%);
+		margin: 1% 40% auto 5%;
+		
+		height: 740px;
+		width: 520px;
 
-	border-radius: 25px;
-	border: 3px solid #a5a5a5;
-	box-shadow: 1px -1px 15px -3px #000;
-}
+		background: -webkit-linear-gradient(12deg, rgba(255,255,255,1) 0%,rgba(247,247,247,1) 60%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -moz-linear-gradient(top,  #ffffff 0%, #fafafa 50%, #ffffff 100%);
 
-.onbutton {
-	margin:-7px auto auto 500px;
-	height: 2px;
-	width: 32px;
-	background-color: #333333;
-	border-top-left-radius: 4px;
-	border-top-right-radius: 4px;
-	border:1px solid #383838;
-	
-}
+		border-radius: 25px;
+		border: 3px solid #a5a5a5;
+		box-shadow: 1px -1px 15px -3px #000;
+	}
 
-.menubar{
-	position: absolute;
-	margin: 0px auto;
-	height: 10px;
-	width: 460px;
-	background-color: black;
-  opacity: 0.2;
-}
+	.onbutton {
+		margin:-7px auto auto 500px;
+		height: 2px;
+		width: 32px;
+		background-color: #333333;
+		border-top-left-radius: 4px;
+		border-top-right-radius: 4px;
+		border:1px solid #383838;
+		
+	}
 
-.lock{
-	position: absolute;
-	margin: auto auto auto 563px;
-	width: 2px;
-	height: 14px;
-	background-color: #333333;
-	border-top-right-radius:3px;
-	border-bottom-right-radius:3px;
-	border: 1px solid #383838;
-}
+	.menubar{
+		position: absolute;
+		margin: 0px auto;
+		height: 10px;
+		width: 460px;
+		background-color: black;
+	  opacity: 0.2;
+	}
 
-.volumeup{
-	position: absolute;
-	margin: 39px auto auto 563px;
-	width: 1px;
-	height: 0px;
-	background-color: transparent;
-	border-top: 45px solid #383838;
-	border-right: 3px solid transparent;
+	.lock{
+		position: absolute;
+		margin: auto auto auto 563px;
+		width: 2px;
+		height: 14px;
+		background-color: #333333;
+		border-top-right-radius:3px;
+		border-bottom-right-radius:3px;
+		border: 1px solid #383838;
+	}
 
-}
+	.volumeup{
+		position: absolute;
+		margin: 39px auto auto 563px;
+		width: 1px;
+		height: 0px;
+		background-color: transparent;
+		border-top: 45px solid #383838;
+		border-right: 3px solid transparent;
 
-.volumedown{	
-	position: absolute;
-	margin: 84px auto auto 563px;
-	width: 1px;
-	height: 0px;
-	background-color: transparent;
-	border-bottom: 45px solid #383838;
-	border-right: 3px solid transparent;
-	/*	border-radius: 2px; */
-}
+	}
 
-
-.sensor {
-	margin: 18px auto auto auto;
-	width: 5px;
-	height: 5px;
-	border-radius: 5px;
-	background-color:#e3e3e3;
-}
+	.volumedown{	
+		position: absolute;
+		margin: 84px auto auto 563px;
+		width: 1px;
+		height: 0px;
+		background-color: transparent;
+		border-bottom: 45px solid #383838;
+		border-right: 3px solid transparent;
+		/*	border-radius: 2px; */
+	}
 
 
-.camera {
-	position: relative;
-	margin: 16px auto auto auto;
-	width: 8px;
-	height: 8px;
-	border-radius: 11px;
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#4c4c4c), color-stop(12%,#595959), color-stop(25%,#666666), color-stop(39%,#474747), color-stop(50%,#2c2c2c), color-stop(51%,#000000), color-stop(60%,#111111), color-stop(76%,#2b2b2b), color-stop(91%,#1c1c1c), color-stop(100%,#131313)); /* Chrome,Safari4+ */
-	background: -webkit-radial-gradient(center, ellipse cover, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Chrome10+,Safari5.1+ */
-}
+	.sensor {
+		margin: 18px auto auto auto;
+		width: 5px;
+		height: 5px;
+		border-radius: 5px;
+		background-color:#e3e3e3;
+	}
+	.headset {
 
-.camsensor {
-	position: absolute;
-	margin: 2px 1px 0px 2px;
-	width: 2px;
-	height: 2px;
-	border: 1px solid #313131;
-	border-radius:3px;
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(4,5,28,1)), color-stop(50%,rgba(10,119,213,1)), color-stop(79%,rgba(83,159,225,1)), color-stop(100%,rgba(135,188,234,1))); /* Chrome,Safari4+ */
-	background: -webkit-radial-gradient(center, ellipse cover, rgba(4,5,28,1) 0%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%); /* Chrome10+,Safari5.1+ */
+		display: none;
+	}
 
-}
+	.camera {
+		position: relative;
+		margin: 16px auto auto auto;
+		width: 8px;
+		height: 8px;
+		border-radius: 11px;
+		background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#4c4c4c), color-stop(12%,#595959), color-stop(25%,#666666), color-stop(39%,#474747), color-stop(50%,#2c2c2c), color-stop(51%,#000000), color-stop(60%,#111111), color-stop(76%,#2b2b2b), color-stop(91%,#1c1c1c), color-stop(100%,#131313)); /* Chrome,Safari4+ */
+		background: -webkit-radial-gradient(center, ellipse cover, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Chrome10+,Safari5.1+ */
+	}
 
-.screen {
-	margin: 21px auto auto 50px;
-	width: 460px;	
-	height: 600px;
-	background:center;
-	background-image:url(../resources/eagle.jpg);
-	background-position:fixed;
-	border: 1px solid #3C3F42;
+	.camsensor {
+		position: absolute;
+		margin: 2px 1px 0px 2px;
+		width: 2px;
+		height: 2px;
+		border: 1px solid #313131;
+		border-radius:3px;
+		background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(4,5,28,1)), color-stop(50%,rgba(10,119,213,1)), color-stop(79%,rgba(83,159,225,1)), color-stop(100%,rgba(135,188,234,1))); /* Chrome,Safari4+ */
+		background: -webkit-radial-gradient(center, ellipse cover, rgba(4,5,28,1) 0%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%); /* Chrome10+,Safari5.1+ */
 
+	}
 
-}
-
-.page{
-	position:absolute;
-	background-color:transparent;	
-	margin: 0px 0px 0px auto;
-	width: 460px;	
-	height: 600px;
-
-}
-.apps{
-	
-	float: left;
-	background-color: transparent;
-	margin:25px 20px 20px 20px;
-	width: 72px;
-	height: 80px;
-	position: relative;
-	
-}
-
-.apps .tiles{
-	background-color: #000;
-	background-image:fixed;
-	margin: 0 auto;
-	display:block;
-	width: 57px;
-	height: 57px;
-	border-radius:12px;
-	box-shadow: 0px 1px 0px 0px #272727
-
-}
-
-.apps .tiles img{
-	width: 57px;
-	height:57px;
-	border-radius:12px;
-}
+	.screen {
+		margin: 21px auto auto 30px;
+		width: 460px;	
+		height: 600px;
+		background:center;
+		background-image:url(nebulla.png);
+		background-size: contain;
+		border: 1px solid #3C3F42;
 
 
-.apps .names{
-	margin: 2px auto;
-	background-color: transparent;
-	color: white;
-	text-align: center;
-	text-shadow: black 0.1em 0.1em 0.2em;
-	font-family: 'Arimo', sans-serif;
-	font-size: 12px;
-}
+	}
 
-.homesquare{
-	position: absolute;
-	padding: 4px auto;
-	margin: 10px auto auto 11px;
+	.page{
+		position:relative;
+		background-color:transparent;	
+		margin: -621px 0px 0px auto;
+		width: 460px;	
+		height: 600px;
 
-	width:10px;
-	height:10px;
-	border-radius:3px;
-	border: 2px solid #d8d8d8;
-}
+	}
+	.apps{
+		
+		float: left;
+		background-color: transparent;
+		margin:25px 20px 20px 20px;
+		width: 72px;
+		height: 80px;
+		position: relative;
+		
+	}
 
-.homebutton{
-	margin: 620px auto auto auto;
+	.apps .tiles{
+		background-color: #000;
+		background-image:fixed;
+		margin: 0 auto;
+		display:block;
+		width: 57px;
+		height: 57px;
+		border-radius:12px;
+		box-shadow: 0px 1px 0px 0px #272727
 
-	background-image: -webkit-radial-gradient(50% 0%, rgb(255, 255, 255), rgb(226, 226, 226));
-	width:35px;
-	height:35px;
-	border-radius:17px;
-}
-.dockapps{
-	margin-top: 24px;
+	}
 
-}
-.dockshelf{
+	.apps .tiles img{
+		width: 57px;
+		height:57px;
+		border-radius:12px;
+	}
 
-	margin: -536px auto auto auto;
-	border-bottom: 20px solid #dddddd;
-	border-top: 456px solid transparent;
-	border-left: 20px solid transparent;
-	border-right:20px solid transparent;
-	height: 0px;
-	width: 414px;
-	z-index:-1;
 
-}
+	.apps .names{
+		margin: 2px auto;
+		background-color: transparent;
+		color: white;
+		text-align: center;
+		text-shadow: black 0.1em 0.1em 0.2em;
+		font-family: 'Arimo', sans-serif;
+		font-size: 12px;
+	}
 
-.dockfront{
-	position: absolute;
-	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(242,246,248,1)), color-stop(15%,rgba(216,225,231,1)), color-stop(51%,rgba(181,198,208,1)), color-stop(100%,rgba(224,239,249,1)));
-	margin:595px auto auto 3px;
-	width: 454px;
-	height: 4px;
+	.homesquare{
+		position: relative;
+		padding: 4px auto;
+		margin: 628px auto auto 70px;
+
+		width:10px;
+		height:10px;
+		border-radius:3px;
+		border: 2px solid #d8d8d8;
+	}
+
+	.homebutton{
+		position: absolute;
+
+		margin: 620px auto auto 120px;
+
+		background-image: -webkit-radial-gradient(50% 0%, rgb(255, 255, 255), rgb(226, 226, 226));
+		width:35px;
+		height:35px;
+		border-radius:17px;
+	}
+	.dockapps{
+		margin-top: 24px;
+
+	}
+	.dockshelf{
+
+	}
+
 }
