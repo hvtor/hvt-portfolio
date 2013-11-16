@@ -1,0 +1,278 @@
+body{
+background-image: url(../resources/blackgrain.jpg)
+}
+
+.headname {
+  
+  margin: -200% auto 25% 140%;
+  padding: 20% 20% 5% 5%;
+  font-size: 300%;
+  font-family: 'Leckerli One', cursive;
+  color: #fff;
+  text-shadow: 2px 2px #red, 3px 2px red, 2px 2px red, 2px 3px red;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+.bodycontainer{
+  padding:10% 30% 10% 10%;
+}
+
+.boiler{
+  
+  /*display: inline-block;*/
+  float: left;
+  color: #444;
+  width: 85%;
+  padding: 12% 15% 8% 13%;
+  font-size: 100%;
+  font-family: 'Signika Negative', sans-serif;
+  margin: -25% auto auto 142%;
+  text-align: center;
+  background-color: #fafafa;
+} 
+  
+span {
+  color: #fd7b00;
+
+}
+
+.background{
+  /*margin-top:10px;*/
+  -webkit-gradient(diadonal, center center, 0px, center center, 100%, color-stop(0%,rgba(254,255,255,1)), color-stop(50%,rgba(221,241,249,1)), color-stop(100%,rgba(180,220,234,1))); /* Chrome,Safari4+ */
+}
+
+.ipad{
+  position: relative;
+  margin: auto auto auto 0%;
+
+  width: 270px;
+  height: 560px;
+  background: -webkit-linear-gradient(12deg, rgba(255,255,255,1) 0%,rgba(247,247,247,1) 60%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top,  #ffffff 0%, #fafafa 50%, #ffffff 100%);
+
+
+  border-radius: 30px;
+  border: 2px solid #a5a5a5;
+  box-shadow: 1px -1px 15px -3px #fafafa;
+  z-index: 1;
+}
+
+.iphoneBezel{
+  position:relative;
+  margin: 10% 10% 40% 10%;
+  width: 274px;
+  height: 564px;
+  background-color:transparent;
+  
+  border-radius: 33px;
+  border: 3px solid #f1f1f1;
+  z-index: -1;
+  
+}
+
+.onbutton {
+  margin:-10px auto auto 204px;
+  height: 3px;
+  width: 38px;
+
+  background-color: #fafafa;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border:1px solid #383838;
+  
+}
+
+.menubar{
+
+  position: absolute;
+  margin: 0px auto;
+  height: 10px;
+  width: 254px;
+  background-color: black;
+  opacity: 0.2;
+
+}
+.lock{
+  position: absolute;
+  margin: 40px auto auto -10px;
+
+  width: 3px;
+  height: 14px;
+  background-color: #d8d8d8;
+
+  border-top-left-radius:3px;
+  border-bottom-left-radius:3px;
+  border: 1px solid #a5a5a5;
+}
+
+.volumeup{
+  
+  margin: 74px auto auto -8px;
+  width: 3px;
+  height: 14px;
+  background-color: #d8d8d8;
+  border: none;
+}
+
+.volumedown{
+
+  margin: 104px auto auto -8px;
+  width: 3px;
+  height: 14px;
+  background-color: #d8d8d8;
+  border: none;
+  
+}
+
+.sensor {
+  position: absolute;
+  margin: 45px auto auto 104px;
+  width: 5px;
+  height: 5px;
+  border-radius: 4px;
+
+  background-color:#282828;
+}
+
+.headset {
+  
+  margin: 5px auto auto auto;
+  width: 44px;
+  height: 5px;
+  border-radius: 5px;
+  background-color:#808080;
+  border: 2px solid #fafafa;
+}
+
+.camera {
+  padding: 1px auto;
+  margin: 30px auto auto auto;
+  width: 8px;
+  height: 8px;
+  border-radius: 11px;
+/*  border: 1px solid #666;
+*/    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#4c4c4c), color-stop(12%,#595959), color-stop(25%,#666666), color-stop(39%,#474747), color-stop(50%,#2c2c2c), color-stop(51%,#000000), color-stop(60%,#111111), color-stop(76%,#2b2b2b), color-stop(91%,#1c1c1c), color-stop(100%,#131313)); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Chrome10+,Safari5.1+ */
+}
+
+.camsensor {
+  
+  margin: 2px 1px 0px 2px;
+  width: 2px;
+  height: 2px;
+  border: 1px solid #313131;
+  border-radius:3px;
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(4,5,28,1)), color-stop(50%,rgba(10,119,213,1)), color-stop(79%,rgba(83,159,225,1)), color-stop(100%,rgba(135,188,234,1))); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(4,5,28,1) 0%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%); /* Chrome10+,Safari5.1+ */
+
+}
+
+.screen {
+  margin: 21px auto auto auto;
+  width: 254px; 
+  height: 425px;
+  background:center;
+  background-image:url(../resources/eagle_iphone.jpg);
+  background-position:fixed;
+  border: 1px solid #3C3F42;
+  
+
+}
+
+.page{
+  background-color:transparent; 
+  margin: 0px 0px 0px auto;
+  width: 254px; 
+  height: 400px;
+  
+
+}
+.apps{
+  float: left;
+  background-color: transparent;
+  margin:15px 4px 4px 4px;
+  
+  width: 54px;
+  height: 54px;
+  z-index: 1;
+  position:relative;
+}
+
+.apps .tiles{
+  background-color: black;
+  background-image:fixed;
+  margin: 0 auto;
+  display:block;
+  width: 44px;
+  height: 44px;
+  border-radius:10px;
+  box-shadow: 0px 1px 0px 0px #272727
+
+
+
+}
+
+.apps .tiles img{
+  width: 44px;
+  height:44px;
+  border-radius:10px;
+}
+
+
+.apps .names{
+  margin: 2px auto;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  /*text-shadow: black 0.1em 0.1em 0.2em;*/
+  font-family: 'Arimo', sans-serif;
+  font-size: 10px;
+
+}
+
+/*additional margin for iPhone responsiveness */
+.dockapps {
+  margin:72px 4px 4px 14px;
+}
+
+.homesquare{
+  padding: 1px;
+  margin: 8px 0 auto 9px;
+
+  width:7px;
+  height:7px;
+  border-radius:3px;
+  border: 2px solid #d8d8d8;
+}
+ 
+.homebutton{
+  margin: 442px auto auto auto;
+  background-image: -webkit-radial-gradient(50% 0%, rgb(255, 255, 255), rgb(226, 226, 226));
+  width:30px;
+  height:30px;
+  border-radius:17px;
+  border: 1px solid #e6e6e6;
+}
+
+.dockshelf{
+
+  margin: -529px auto auto auto;
+  border-bottom: 20px solid #dddddd;
+  border-top: 456px solid transparent;
+  border-left: 20px solid transparent;
+  border-right:20px solid transparent;
+  
+  width: 204px;
+
+}
+
+.dockfront{
+  
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(242,246,248,1)), color-stop(15%,rgba(216,225,231,1)), color-stop(51%,rgba(181,198,208,1)), color-stop(100%,rgba(224,239,249,1)));
+  margin:421px auto auto 5px;
+  width: 244px;
+  height: 3px;
+}
