@@ -1,4 +1,4 @@
-<div class="ipadcontainer">
+<div class="ipadcontainer background">
     <div class="iPhoneBezel">
       <div class="ipad">
         <div class="onbutton"></div>
@@ -12,8 +12,11 @@
         <div class="menubar"> <%= Time.now.to_formatted_s(:time) %> </div>
         <div class="page">
             <div class="apps">              
-            <a class="tiles" href="resume/resume.html"><img src="resources/resume2.png"></a>
-            <div class="names">Resume</div>
+            <a class="tiles">
+                <div class="dayOfWeek"> <% t = Time.now %> <%= t.strftime("%A").upcase %></div>
+                <div class="calendarDate"> <%= t.strftime("%-d") %> </div>
+            </a>
+            <div class="names">Calendar</div>
             </div>
 
             <div class="apps">
@@ -34,9 +37,14 @@
             <a class="tiles" href="http://www.linkedin.com/in/hvtorsekar/"><img src="resources/linkedin.png"></a>
             <div class="names">LinkedIn</div>
             </div>
-            <!-- Apps class is a place holder for content of future apps. Utilize above template to add more apps. -->
+
             <div class="apps">
+            <a class="tiles" href="resume/resume.html"><img src="resources/resume2.png"></a>
+            <div class="names">Resume</div>
             </div>
+
+            <!-- Apps class is a place holder for content of future apps. Utilize above template to add more apps. -->
+            
 
             <div class="apps">
             </div>

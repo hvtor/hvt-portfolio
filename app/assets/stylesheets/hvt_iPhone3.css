@@ -42,38 +42,37 @@
 
   .background{
     /*margin-top:10px;*/
-    -webkit-gradient(diadonal, center center, 0px, center center, 100%, color-stop(0%,rgba(254,255,255,1)), color-stop(50%,rgba(221,241,249,1)), color-stop(100%,rgba(180,220,234,1))); /* Chrome,Safari4+ */
+    background-color: black;
+    background-size: all;
   }
 
   .ipad{
     position: relative;
-    margin: auto auto auto 0%;
+    margin: 10% 10% 30% 10%;
 
     width: 270px;
     height: 560px;
     background: -webkit-linear-gradient(12deg, rgba(255,255,255,1) 0%,rgba(247,247,247,1) 60%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
 
-    border-radius: 39px;
+    border-radius: 33px;
     border: 2px solid #a5a5a5;
     box-shadow: 1px -1px 15px -3px #fafafa;
-    z-index: 1;
   }
 
   .iphoneBezel{
-    position:relative;
     margin: 10% 10% 40% 10%;
     width: 274px;
     height: 564px;
     
-    border-radius: 33px;
-    border: 6px solid #rgb(226, 195, 141);
-    z-index: 1;
+    border-radius: 39px;
+    border: 6px solid #E3E3E3;
+    z-index: 10;
     
   }
 
   .onbutton {
-    margin:-10px auto auto 204px;
-    height: 3px;
+    margin:-8px auto auto 204px;
+    height: 1px;
     width: 34px;
 
     background-color: #fafafa;
@@ -121,8 +120,8 @@
   }
 
   .volumedown{
-
-    margin: 104px auto auto -8px;
+    position: relative;
+    margin: 20px auto auto -8px;
     width: 3px;
     height: 14px;
     background-color: #d8d8d8;
@@ -142,7 +141,7 @@
 
   .headset {
     
-    margin: -81px auto auto auto;
+    margin: -116px auto auto auto;
     width: 44px;
     height: 5px;
     border-radius: 5px;
@@ -174,14 +173,15 @@
   }
 
   .screen {
-    margin: -101px auto auto 7px;
+    margin: 20px auto auto 7px;
     width: 254px; 
     height: 425px;
     background:center;
     background-image:url(nebulla.png);  
     background-size: contain;
 
-    border: 1px solid #3C3F42;
+    border: 2px solid #3C3F42;
+    border-radius: 3px;
     
 
   }
@@ -206,7 +206,7 @@
   }
 
   .apps .tiles{
-    background-color: black;
+    background-color: white;
     background-image:fixed;
     margin: 0 auto;
     display:block;
@@ -223,7 +223,9 @@
     width: 44px;
     height:44px;
     border-radius:10px;
+
   }
+
 
 
   .apps .names{
@@ -243,6 +245,7 @@
   }
 
   .homesquare{
+    display: none;
     margin: 9px 0 auto 10px;
 
     width:7px;
@@ -254,11 +257,11 @@
   .homebutton{
     position: absolute;
     margin: 442px auto auto 110px;
-    background-image: -webkit-radial-gradient(50% 0%, rgb(255, 255, 255), rgb(226, 226, 226));
+    background-image: -webkit-radial-gradient(5% 100%, rgb(255, 255, 255), rgb(226, 226, 226));
     width:30px;
     height:30px;
     border-radius:17px;
-    border: 2px solid rgb(226, 195, 141);
+    border: 3px solid rgb(226, 195, 141);
   }
 
   .dockshelf{
