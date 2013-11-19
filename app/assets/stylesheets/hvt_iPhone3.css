@@ -1,4 +1,4 @@
-@media all and (min-width: 1px) and (max-width: 678px) {
+@media all and (min-width: 1px) and (max-width: 676px) {
   body{
   background-image: url(../resources/blackgrain.jpg)
   }
@@ -177,8 +177,8 @@
     width: 254px; 
     height: 425px;
     background:center;
-    background-image:url(nebulla.png);  
-    background-size: contain;
+    background-image:url(blur.jpg);  
+    
 
     border: 2px solid #3C3F42;
     border-radius: 3px;
@@ -233,15 +233,14 @@
     background-color: transparent;
     color: white;
     text-align: center;
-    /*text-shadow: black 0.1em 0.1em 0.2em;*/
-    font-family: 'Roboto Condensed';
-    font-size: 11px;
+    font-size: 9px;
+    font-family: "HelveticaNeue-Light", Helvetica, Arial, sans-serif;    
 
   }
 
   /*additional margin for iPhone responsiveness */
   .dockapps {
-    margin:72px 4px 4px 14px;
+    margin:62px 4px 4px 14px;
   }
 
   .homesquare{

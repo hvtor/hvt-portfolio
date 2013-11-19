@@ -1,4 +1,4 @@
-@media all and (min-width: 679px) and (max-width: 1440px) {
+@media all and (min-width: 677px) and (max-width: 1440px) {
 
 	body{
 		background-image: url(../resources/blackgrain.jpg)
@@ -80,12 +80,13 @@
 	}
 
 	.menubar{
+		font-family: "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
 		position: absolute;
 		margin: 0px auto;
 		height: 10px;
 		width: 460px;
 		color: white;
-    font-size: 8px;
+    font-size: 9px;
     text-align: center;
     opacity: 1;
 	}
@@ -163,7 +164,7 @@
 		width: 460px;	
 		height: 600px;
 		background:center;
-		background-image:url(nebulla.png);
+		background-image:url(blur.jpg);
 		background-size: contain;
 		border: 2px solid #3C3F42;
 		border-radius: 4px;
@@ -199,6 +200,7 @@
 		height: 57px;
 		border-radius:12px;
 		box-shadow: 0px 1px 0px 0px #272727
+		-webkit-background-origin:border;
 
 	}
 
@@ -206,8 +208,17 @@
 		width: 57px;
 		height:57px;
 		border-radius:12px;
+		background-size: 57px 57px;
+
 	}
 
+	.github {
+		background-color: #F6F6F6;
+	}
+
+	.youtube img {
+		padding-left: 9px;
+	}
 
 	.apps .names{
 		margin: 2px auto;
@@ -215,11 +226,12 @@
 		color: white;
 		text-align: center;
 		text-shadow: black 0.1em 0.1em 0.2em;
-		font-family: 'Arimo', sans-serif;
+		font-family: "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
 		font-size: 12px;
 	}
 
 	.dayOfWeek {
+		font-family: "HelveticaNeue-UltraLight", Helvetica, Arial, sans-serif;
 		padding-top: 6px;
 		width: 57px;
 		color: #E38A8C;
@@ -228,13 +240,15 @@
 		text-decoration: none;
 	}
 	.calendarDate {
+		font-family: "HelveticaNeue-UltraLight", Helvetica, Arial, sans-serif;
 		color: #000;
 		height: 23px;
-		width: 57px;
+		width: 48px;
 		margin-top:-6px;
-		padding-top:align;
+		margin-right:5px;
 		text-align: center;
-		font-size: 42px;
+		font-size: 40px;
+		letter-spacing: -4px;
 	}
 
 	.homesquare{
@@ -258,7 +272,7 @@
 		border-radius:17px;
 	}
 	.dockapps{
-		margin-top: 24px;
+		margin-top: 14px;
 
 	}
 	.dockshelf{
