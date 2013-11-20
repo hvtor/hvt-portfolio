@@ -225,7 +225,7 @@
 		background-image: -webkit-linear-gradient(top, rgb(65, 108, 228), rgb(77, 237, 239));
 		width: 48px;
 	}
-	
+
 	.apps .names{
 		margin: 2px auto;
 		background-color: transparent;
@@ -241,7 +241,7 @@
 		padding-top: 6px;
 		width: 57px;
 		color: #E38A8C;
-		font-size:10px;
+		font-size:9px;
 		text-align: center;
 		text-decoration: none;
 	}
@@ -249,12 +249,12 @@
 		font-family: "HelveticaNeue-UltraLight", Helvetica, Arial, sans-serif;
 		color: #000;
 		height: 23px;
-		width: 48px;
+		width: 57px;
 		margin-top:-6px;
 		margin-right:5px;
 		text-align: center;
 		font-size: 40px;
-		letter-spacing: -4px;
+		letter-spacing: -1px;
 	}
 
 	.homesquare{

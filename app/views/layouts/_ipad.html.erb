@@ -1,5 +1,5 @@
 <div class="ipadcontainer background">
-    <div class="iPhoneBezel">
+    <div class="iphoneBezel">
       <div class="ipad">
         <div class="onbutton"></div>
         <div class="sensor"></div>
@@ -11,7 +11,7 @@
         <div class="screen">
         <div class="menubar"> <% t = Time.now %> <%= t.strftime("%l")+":"+ t.strftime("%M") + "  " + t.strftime("%p") %>
         <div class="page">
-            <div class="apps">              
+            <div class="apps zoomTarget" data-targetsize="0.75" data-duration="800">              
             <a class="tiles">
                 <div class="dayOfWeek"> <%= t.strftime("%A") %></div>
                 <div class="calendarDate"> <%= t.strftime("%-d") %> </div>
