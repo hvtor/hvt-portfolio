@@ -1,7 +1,6 @@
 @media all and (min-width: 677px) and (max-width: 1440px) {
 
 	body{
-		background-image: url(../resources/blackgrain.jpg)
 	}
 
 	.background{
@@ -220,6 +219,13 @@
 		padding-left: 9px;
 	}
 
+	.email {
+		background-color: #47ace9;
+		background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(65, 108, 228)), to(rgb(77, 237, 239)));
+		background-image: -webkit-linear-gradient(top, rgb(65, 108, 228), rgb(77, 237, 239));
+		width: 48px;
+	}
+	
 	.apps .names{
 		margin: 2px auto;
 		background-color: transparent;
@@ -264,7 +270,7 @@
 	.homebutton{
 		position: absolute;
 
-		margin: 620px auto auto 214px;
+		margin: 610px auto auto 214px;
 
 		background-image: -webkit-radial-gradient(50% 0%, rgb(255, 255, 255), rgb(226, 226, 226));
 		width:35px;
