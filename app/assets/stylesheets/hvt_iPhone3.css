@@ -40,6 +40,7 @@
 
   }
 
+
 /*  .background{
     margin-top:10px;
     background-color: black;
@@ -51,29 +52,29 @@
     position: relative;
     margin: 0% 10% 30% 0%;
 
-    width: 268px;
-    height: 560px;
+    width: 270px;
+    height: 562px;
     background: -webkit-linear-gradient(12deg, rgba(255,255,255,1) 0%,rgba(247,247,247,1) 60%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
 
     border-radius: 33px;
-    border: 3px solid #FAFAFA;
+    border: 2px solid #E2E2E2;
     box-shadow: 1px -1px 15px -3px #fafafa;
     z-index: 1;
   }
 
   .iphoneBezel{
     margin: 14% 10% 40% 10%;
-    width: 274px;
+    width: 273px;
     height: 564px;
     
-    border-radius: 33px;
-    border: 3px solid #E2C38D;
+    border-radius: 37px;
+    border: 4px solid #E2C38D;
     
     
   }
 
   .onbutton {
-    margin:-9px auto auto 204px;
+    margin:-8px auto auto 204px;
     height: 1px;
     width: 34px;
 
@@ -85,24 +86,35 @@
   }
 
   .menubar{
-    margin: 0px auto;
+    position: relative;
+    font-family: "HelveticaNeue-Light", Helvetica, Arial, sans-serif;    
+    margin-top: 2px;
     height: 10px;
-    width: 254px;
+    width: 240px;
     
     color: white;
-    font-size: 8px;
+    font-size: 9px;
     text-align: center;
     opacity: 1;
-
-    
-
   }
+
+  .signal {
+    
+    position: absolute;
+    margin: 0px auto auto 3px;
+    padding-left: 4px;
+    text-align: left;
+    width: 25px;
+    color: white;  
+    border: white;
+  }
+
   .lock{
     position: absolute;
-    margin: 40px auto auto -9px;
+    margin: 40px auto auto -8px;
 
     width: 1px;
-    height: 14px;
+    height: 18px;
     background-color: #E2C38D;;
 
     border-top-left-radius:3px;
@@ -114,7 +126,7 @@
   .volumeup{
     
     margin: 74px auto auto -8px;
-    width: 3px;
+    width: 2px;
     height: 14px;
     background-color: #E2C38D;
     border: none;
@@ -123,7 +135,7 @@
   .volumedown{
     position: relative;
     margin: 20px auto auto -8px;
-    width: 3px;
+    width: 2px;
     height: 14px;
     background-color: #E2C38D;
     border: none;
@@ -132,7 +144,7 @@
 
   .sensor {
     position: absolute;
-    margin: 45px auto auto 104px;
+    margin: 46px auto auto 102px;
     width: 5px;
     height: 5px;
     border-radius: 4px;
@@ -143,11 +155,16 @@
   .headset {
     
     margin: -116px auto auto auto;
-    width: 44px;
+    width: 40px;
     height: 5px;
     border-radius: 5px;
-    background-color:#808080;
-    border: 2px solid #fafafa;
+    background-color:#2F2F30;
+
+   -moz-box-shadow:    inset 0 0 5px #E2E2E2;
+   -webkit-box-shadow: inset 0 0 5px #E2E2E2;
+   box-shadow:         inset 0 0 5px #E2E2E2;
+
+    border: 2px solid #FAFAFA;
   }
 
   .camera {
@@ -162,7 +179,7 @@
   }
 
   .camsensor {
-    
+    position: absolute;
     margin: 2px 1px 0px 2px;
     width: 2px;
     height: 2px;
@@ -174,14 +191,14 @@
   }
 
   .screen {
-    margin: 20px auto auto 7px;
-    width: 254px; 
+    margin: 20px auto auto 12px;    
+    width: 240px; 
     height: 425px;
-    background:center;
-    background-image:url(blur.jpg);  
+    background-size:100%;
+    background-image:url(tinge.jpg);  
     
 
-    border: 2px solid #3C3F42;
+    border: 3px solid #272727;
     border-radius: 3px;
     
 
@@ -189,7 +206,7 @@
 
   .page{
     background-color:transparent; 
-    margin: 0px 0px 0px auto;
+    margin: 0px 0px 0px 7px;
     width: 254px; 
     height: 400px;
     
@@ -198,10 +215,10 @@
   .apps{
     float: left;
     background-color: transparent;
-    margin:15px 4px 4px 4px;
+    margin:8px 2px 4px 2px;
     
-    width: 54px;
-    height: 54px;
+    width: 52px;
+    height: 52px;
     z-index: 1;
     
   }
@@ -263,9 +280,7 @@
 
 
   /*additional margin for iPhone responsiveness */
-  .dockapps {
-    margin:62px 4px 4px 14px;
-  }
+  
 
   .homesquare{
     display: none;
@@ -279,12 +294,17 @@
    
   .homebutton{
     position: absolute;
-    margin: 432px auto auto 110px;
-    /*background-image: -webkit-radial-gradient(5% 100%, rgb(255, 255, 255), rgb(226, 226, 226));*/
-    width:30px;
-    height:30px;
-    border-radius:17px;
+    margin: 426px auto auto 96px;
+    width:35px;
+    height:35px;
+    border-radius:20px;
     border: 3px solid #E2C38D;
+  }
+  .homebuttondown {
+
+    box-shadow: inset 0px 0px 10px #E2E2E2;
+    
+
   }
 
   .email {
@@ -301,6 +321,19 @@
   }
 
   .dockfront{
+    position: absolute;
+    margin: 339px auto auto -7px;
+    height: 73px;
+    width: 240px;
+    background-color: rgba(226, 210, 226, 0.6);
+    -webkit-filter: blur(10px);
+    color: #000;
+    z-index: 2;
     
+  }
+  .dockapps {
+    margin:96px 2px 4px 4px;
+    position: relative;
+    z-index: 10;
   }
 }

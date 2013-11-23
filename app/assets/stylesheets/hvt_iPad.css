@@ -46,6 +46,11 @@
 	span {	
 		color: #fd7b00
 	}
+
+	.signal {
+		display: none;
+
+	}
 	.background{
 		/*margin-top:10px;*/
 		-webkit-gradient(diadonal, center center, 0px, center center, 100%, color-stop(0%,rgba(254,255,255,1)), color-stop(50%,rgba(221,241,249,1)), color-stop(100%,rgba(180,220,234,1))); /* Chrome,Safari4+ */
@@ -56,7 +61,7 @@
 
 		margin: 1% 40% auto 5%;
 		
-		height: 740px;
+		height: 790px;
 		width: 520px;
 
 		background: -webkit-linear-gradient(12deg, rgba(255,255,255,1) 0%,rgba(247,247,247,1) 60%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
@@ -85,7 +90,7 @@
 		height: 10px;
 		width: 460px;
 		color: white;
-    font-size: 9px;
+    font-size: 10px;
     text-align: center;
     opacity: 1;
 	}
@@ -125,9 +130,9 @@
 
 
 	.sensor {
-		margin: 18px auto auto auto;
-		width: 5px;
-		height: 5px;
+		margin: 24px auto auto auto;
+		width: 4px;
+		height: 4px;
 		border-radius: 5px;
 		background-color:#e3e3e3;
 	}
@@ -159,13 +164,13 @@
 	}
 
 	.screen {
-		margin: 21px auto auto 30px;
+		margin: 21px auto auto 27px;
 		width: 460px;	
-		height: 600px;
+		height: 650px;
 		background:center;
-		background-image:url(blur.jpg);
-		background-size: contain;
-		border: 2px solid #3C3F42;
+		background-image:url(tinge.jpg);
+		background-size: 100%;
+		border: 3px solid #272727;
 		border-radius: 4px;
 
 
@@ -176,14 +181,14 @@
 		background-color:transparent;	
 		margin: 0px 0px 0px auto;
 		width: 460px;	
-		height: 600px;
+		height: 650px;
 
 	}
 	.apps{
 		
 		float: left;
 		background-color: transparent;
-		margin:25px 20px 20px 20px;
+		margin:14px 20px 20px 20px;
 		width: 72px;
 		height: 80px;
 		position: relative;
@@ -270,7 +275,7 @@
 	.homebutton{
 		position: absolute;
 
-		margin: 610px auto auto 214px;
+		margin: 660px auto auto 214px;
 
 		background-image: -webkit-radial-gradient(50% 0%, rgb(255, 255, 255), rgb(226, 226, 226));
 		width:35px;
@@ -278,11 +283,22 @@
 		border-radius:17px;
 	}
 	.dockapps{
-		margin-top: 14px;
+		margin-top: 104px;
+		z-index: 10;
 
 	}
-	.dockshelf{
 
-	}
+	.dockfront{
+    position: absolute;
+    margin: 548px auto auto 0px;
+    height: 92px;
+    width: 462px;
+    background-color: rgba(226, 210, 226, 0.6);
+    -webkit-filter: blur(2px);
+    border-top: rgba(226, 210, 226) ;
+    color: #000;
+    z-index: 2;
+    
+  }
 
 }
