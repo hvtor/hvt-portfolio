@@ -1,6 +1,7 @@
 @media all and (min-width: 1px) and (max-width: 676px) {
+
   body{
-  background-image: url(../resources/blackgrain.jpg)
+
   }
 
   .headname {
@@ -54,8 +55,7 @@
 
     width: 270px;
     height: 562px;
-    background: -webkit-linear-gradient(12deg, rgba(255,255,255,1) 0%,rgba(247,247,247,1) 60%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
-
+    background: -webkit-linear-gradient(8deg, rgba(255,255,255,1) 0%,rgba(247,247,247,1) 60%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
     border-radius: 33px;
     border: 2px solid #E2E2E2;
     box-shadow: 1px -1px 15px -3px #fafafa;
@@ -205,10 +205,11 @@
   }
 
   .page{
+    
     background-color:transparent; 
     margin: 0px 0px 0px 7px;
-    width: 254px; 
-    height: 400px;
+    width: 240px; 
+    height: 425px;
     
 
   }
@@ -223,7 +224,7 @@
     
   }
 
-  .apps .tiles{
+  .tiles{
     background-color: white;
     background-image:fixed;
     margin: 0 auto;
@@ -233,8 +234,12 @@
     border-radius:10px;
     box-shadow: 0px 1px 0px 0px #272727
 
+  }
 
-
+  .tilemousedown {
+    box-shadow: inset 0px 0px 50px #949199;
+    opacity: 0.9;
+    
   }
 
   .apps .tiles img{
@@ -294,16 +299,18 @@
    
   .homebutton{
     position: absolute;
-    margin: 426px auto auto 96px;
+    background-image: -webkit-radial-gradient(100% 0%, #FFF, #f9f9f9);
+    margin: 5px auto auto 96px;
     width:35px;
     height:35px;
     border-radius:20px;
     border: 3px solid #E2C38D;
   }
-  .homebuttondown {
+  .buttondown {
 
-    box-shadow: inset 0px 0px 10px #E2E2E2;
-    
+    box-shadow: inset 0px 0px 16px #F4F4F4;
+    border: 3px solid #DBBD88;
+
 
   }
 
@@ -325,10 +332,13 @@
     margin: 339px auto auto -7px;
     height: 73px;
     width: 240px;
-    background-color: rgba(226, 210, 226, 0.6);
-    -webkit-filter: blur(10px);
-    color: #000;
+    background-color: rgba(226, 210, 226, 1);
+    -webkit-filter:blur(10px);
+    filter:url(#blur-effect);
+    opacity: 0.50;
+    
     z-index: 2;
+    border-top: 1px solid rgba(226, 210, 226, 1);
     
   }
   .dockapps {
@@ -336,4 +346,25 @@
     position: relative;
     z-index: 10;
   }
+
+  .pageshow {
+    position: relative;
+    background-color: #FAFAFA;
+    opacity: 1;
+    width: 240px; 
+    height: 425px;
+    margin: -12px 0px 0px 0px;
+
+    /*-webkit-transition: all 1.0s linear;
+    -moz-transition: all 1.0s linear;
+    -o-transition: all 1.0s linear;
+    -ms-transition: all 1.0s linear;    
+    transition: all 1.0s linear;*/
+
+
+  }
+  .homebuttonwithpageshow {
+    margin-top: ;
+  }
+
 }

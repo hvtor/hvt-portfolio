@@ -1,0 +1,43 @@
+$(document).ready(function(){
+  
+  // function ButtonTap for HomeButton and AppsWhenTapped/Clicked
+    $(".homebutton").mousedown(function() {
+        $(this).addClass("buttondown");
+        $(".homebutton").mouseup(function() {
+            $(".buttondown").removeClass("buttondown");
+        });
+    });
+
+    //Click App to Open App
+    $(".page").each(function(){
+        //Click App to Open App
+        $(".apps").mousedown(function() {
+            $(this).find(".tiles").addClass("tilemousedown");
+            $(this).mouseup(function() {
+                var page = $(this).parent();
+                $(".page").removeClass("page");
+                $(".tilemousedown").removeClass("tilemousedown");
+                page.addClass("pageshow");
+                page.children().hide();
+                
+                // alert("removingappsclass")
+                
+
+                // alert("pageshowreached")
+            });
+
+        });
+      
+
+      //Click Homebutton to exit App
+        $(".homebutton").click(function() { 
+          
+
+        });
+      // var appName = $(this).find($("div.names")).text();
+      // var p = $(this).find('tiles');
+      // var position = p.position();
+      // $(".pageshow").removeClass("pageshow").append(<%#= escape_javascript(render 'layouts/page'));
+
+    });
+});

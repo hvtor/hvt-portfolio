@@ -10,90 +10,11 @@
         <div class="headset"></div>
         <div class="screen">
         <div class="menubar"> <div class="signal">•••••</div><% t = Time.now %> <%= t.strftime("%l")+":"+ t.strftime("%M") + "  " + t.strftime("%p") %>
-        <div class="page">
-            <div class="apps">              
-            <a class="tiles">
-                <div class="dayOfWeek"> <%= t.strftime("%A") %></div>
-                <div class="calendarDate"> <%= t.strftime("%-d") %> </div>
-            </a>
-            <div class="names">Calendar</div>
-            </div>
-
-            <div class="apps">
-            <a class="tiles" href="http://instagram.com/hvt"><%=image_tag "instagram.png" %></a>
-            <div class="names">Instagram</div>
-            </div>
-
-            <div class="apps">
-            <a class="tiles" href="http://www.twitter.com/hvt"><%=image_tag "twitter.png" %></a>
-            <div class="names">Twitter</div>
-            </div>
-            <div class="apps">
-            <a class="tiles" href="http://www.github.com/hvtor"><%=image_tag "soundcloud.png" %></a>
-            <div class="names">SoundCloud</div>
-            </div>
-            <div class="apps">
-            <a class="tiles" href="http://www.github.com/hvtor"><%=image_tag "github.png" %></a>
-            <div class="names">Github</div>
-            </div>
-
-            <div class="apps">
-            <a class="tiles" href="http://www.linkedin.com/in/hvtorsekar/"><%=image_tag "linkedin.png" %></a>
-            <div class="names">LinkedIn</div>
-            </div>
-
-            <div class="apps">
-            <a class="tiles" href="resume/resume.html"><%=image_tag "resume.png" %></a>
-            <div class="names">Resume</div>
-            </div>
-
-            <!-- Apps class is a place holder for content of future apps. Utilize above template to add more apps. -->
-
-
-            <div class="apps">
-            </div>
-
-            <div class="apps">
-            </div>
-
-            <div class="apps">
-            </div>
-
-            <div class="apps">
-            </div>
-
-            <div class="apps">
-            </div>
-
-            <div class="apps">  
-            </div>
-            <div class="apps">
-            </div>
-
-            <div class="apps">
-            </div>
-
-            <div class="apps">
-            </div>
-
-  <!-- Apps on dock start here after placeholder apps above. -->         <div class="dockfront"> </div>
-                <div class="dockapps apps">
-                  <a class="tiles" href="http://www.youtube.com/watch?v=llTSWLVv1tI"><%=image_tag "youtube.png" %></a>
-                  <div class="names">YouTube</div>
-                </div>
-                <div class="dockapps apps">
-                  <a class="tiles" href="mailto:hvtorsekar@gmail.com?subject=Hemant!%20We%20Should%20Talk!"><%=image_tag "email.png", :class => "email" %></a>
-                  <div class="names">Email Me</div>
-                </div>
-                <div class="dockapps apps">
-                  <a class="tiles" href="http://ikatha.tumblr.com"><%=image_tag "tumblr.png" %></a>
-                  <div class="names">iKatha</div>
-                </div>
-          <div class="homebutton">
-                <div class="homesquare"></div>
-          </div>
         </div>
-      </div>
-      </div>
+          <%= render 'layouts/page' %>
+          <div class="homebutton">
+                    <div class="homesquare"></div>
+          </div>
+          </div>
     </div>
 </div>

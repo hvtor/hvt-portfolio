@@ -64,7 +64,7 @@
 		height: 790px;
 		width: 520px;
 
-		background: -webkit-linear-gradient(12deg, rgba(255,255,255,1) 0%,rgba(247,247,247,1) 60%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+		background: -webkit-linear-gradient(8deg, rgba(255,255,255,1) 0%,rgba(247,247,247,1) 60%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
 		background: -moz-linear-gradient(top,  #ffffff 0%, #fafafa 50%, #ffffff 100%);
 
 		border-radius: 25px;
@@ -277,11 +277,19 @@
 
 		margin: 660px auto auto 214px;
 
-		background-image: -webkit-radial-gradient(50% 0%, rgb(255, 255, 255), rgb(226, 226, 226));
+		background-image: -webkit-radial-gradient(100% 0%, rgb(255, 255, 255), rgb(226, 226, 226));
 		width:35px;
 		height:35px;
 		border-radius:17px;
 	}
+
+	.buttondown {
+
+    box-shadow: inset 0px 0px 16px #E2E2E2;
+    background-image: -webkit-radial-gradient(100% 0%, rgb(255, 255, 255), rgb(226, 226, 226));
+
+  }
+
 	.dockapps{
 		margin-top: 104px;
 		z-index: 10;
@@ -293,8 +301,10 @@
     margin: 548px auto auto 0px;
     height: 92px;
     width: 462px;
-    background-color: rgba(226, 210, 226, 0.6);
-    -webkit-filter: blur(2px);
+    background-color: rgba(226, 210, 226, 1);
+    -webkit-filter:blur(1px);
+		filter:url(#blur-effect);
+    opacity: 0.50;
     border-top: rgba(226, 210, 226) ;
     color: #000;
     z-index: 2;
