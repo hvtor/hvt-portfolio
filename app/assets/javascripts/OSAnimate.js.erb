@@ -20,6 +20,8 @@ $(document).ready(function(){
                 page.addClass("pageshow");
                 page.children().hide();
                 
+
+                
                 // alert("removingappsclass")
                 
 
@@ -31,7 +33,8 @@ $(document).ready(function(){
 
       //Click Homebutton to exit App
         $(".homebutton").click(function() { 
-          
+          var page = $(this).find(".page");
+          page.children().show();
 
         });
       // var appName = $(this).find($("div.names")).text();
