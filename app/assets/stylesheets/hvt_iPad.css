@@ -53,7 +53,7 @@
 	}
 	.background{
 		/*margin-top:10px;*/
-		-webkit-gradient(diadonal, center center, 0px, center center, 100%, color-stop(0%,rgba(254,255,255,1)), color-stop(50%,rgba(221,241,249,1)), color-stop(100%,rgba(180,220,234,1))); /* Chrome,Safari4+ */
+		background: -webkit-gradient(diadonal, center center, 0px, center center, 100%, color-stop(0%,rgba(254,255,255,1)), color-stop(50%,rgba(221,241,249,1)), color-stop(100%,rgba(180,220,234,1))); /* Chrome,Safari4+ */
 
 	}
 
@@ -208,7 +208,7 @@
 
 	}
 
-	.apps .tiles img{
+	.apps .tiles {
 		width: 57px;
 		height:57px;
 		border-radius:12px;
@@ -216,13 +216,33 @@
 
 	}
 
+	.app-circles {
+		font-size:1.8em;
+		color: #fff;
+		position: absolute;
+		padding: 7px 0px 0px 7px;		
+		margin:5px 0px 0px 5px;
+		width: 40px;
+		height: 40px;
+		border-radius: 40px;
+	}
+
 	.github {
 		background-color: #F6F6F6;
 	}
 
-	.youtube img {
+	.youtube {
 		padding-left: 9px;
 	}
+
+	.linkedin {
+		background-color: #0E76A8;
+		z-index: 1;
+	}
+	.resume {
+		background-color: #EE555E;
+	}
+
 
 	.email {
 		background-color: #47ace9;
