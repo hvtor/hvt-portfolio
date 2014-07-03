@@ -1,60 +1,60 @@
-$(document).ready(function(){
+// $(document).ready(function(){
   
-  // function ButtonTap for HomeButton and AppsWhenTapped/Clicked
-    $(".homebutton").mousedown(function() {
-        $(this).addClass("buttondown");
-        $(".homebutton").mouseup(function() {
-            $(".buttondown").removeClass("buttondown");
-        });
-    });
+//   // function ButtonTap for HomeButton and AppsWhenTapped/Clicked
+//     $(".homebutton").mousedown(function() {
+//         $(this).addClass("buttondown");
+//         $(".homebutton").mouseup(function() {
+//             $(".buttondown").removeClass("buttondown");
+//         });
+//     });
 
-    // >>>>>>>>>>>>>>>>>> Click App to Open App <<<<<<<<<<<<<<<<<<<
-    // $(".page").each(function(){
-    //     //Click App to Open App
-    //     $(".apps").mousedown(function() {
-    //         $(this).find(".tiles").addClass("tilemousedown");
-    //         $(this).addClass("shake");
-    //         $(this).mouseup(function() {
-    //             var page = $(this).parent();
-    //             $(".page").removeClass("page");
-    //             $(".tilemousedown").removeClass("tilemousedown");
-    //             page.addClass("pageshow");
+//     // >>>>>>>>>>>>>>>>>> Click App to Open App <<<<<<<<<<<<<<<<<<<
+//     // $(".page").each(function(){
+//     //     //Click App to Open App
+//     //     $(".apps").mousedown(function() {
+//     //         $(this).find(".tiles").addClass("tilemousedown");
+//     //         $(this).addClass("shake");
+//     //         $(this).mouseup(function() {
+//     //             var page = $(this).parent();
+//     //             $(".page").removeClass("page");
+//     //             $(".tilemousedown").removeClass("tilemousedown");
+//     //             page.addClass("pageshow");
                 
-    //             page.addClass("opacity-0");
+//     //             page.addClass("opacity-0");
 
-    //         });
-    //     });
+//     //         });
+//     //     });
 
-        // $(".page").each(function(){
-        //   var interval;
-        //   console.log("shake");
-        //   $(".apps").addEventListener('mousedown', function(e) {
-        //     interval = setInterval(function(){
-        //     }, 2000);
-        //     $(this).addClass("shake");
+//         // $(".page").each(function(){
+//         //   var interval;
+//         //   console.log("shake");
+//         //   $(".apps").addEventListener('mousedown', function(e) {
+//         //     interval = setInterval(function(){
+//         //     }, 2000);
+//         //     $(this).addClass("shake");
 
-        //   });
-        //   $(".apps").addEventListener('mouseup', function(e){
-        //     clearInterval(interval);
-        //     $(this).removeClass("shake");
+//         //   });
+//         //   $(".apps").addEventListener('mouseup', function(e){
+//         //     clearInterval(interval);
+//         //     $(this).removeClass("shake");
 
-        //   });
-        // });
+//         //   });
+//         // });
       
 
-      //Click Homebutton to exit App
-        $(".homebutton").click(function() { 
-          var page = $(this).find("pageshow");
-          $(".pageshow").removeClass("opacity-0");
+//       //Click Homebutton to exit App
+//         $(".homebutton").click(function() { 
+//           var page = $(this).find("pageshow");
+//           $(".pageshow").removeClass("opacity-0");
           
           
           
 
-        });
-      // var appName = $(this).find($("div.names")).text();
-      // var p = $(this).find('tiles');
-      // var position = p.position();
-      // $(".pageshow").removeClass("pageshow").append(<%#= escape_javascript(render 'layouts/page'));
+//         });
+//       // var appName = $(this).find($("div.names")).text();
+//       // var p = $(this).find('tiles');
+//       // var position = p.position();
+//       // $(".pageshow").removeClass("pageshow").append(<%#= escape_javascript(render 'layouts/page'));
 
-    });
-});
+//     });
+// });
