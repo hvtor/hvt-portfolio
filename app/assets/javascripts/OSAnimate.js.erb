@@ -8,28 +8,28 @@ $(document).ready(function(){
         });
     });
 
-    //Click App to Open App
-    $(".page").each(function(){
-        //Click App to Open App
-        $(".apps").mousedown(function() {
-            $(this).find(".tiles").addClass("tilemousedown");
-            $(this).addClass("shake");
-            $(this).mouseup(function() {
-                var page = $(this).parent();
-                $(".page").removeClass("page");
-                $(".tilemousedown").removeClass("tilemousedown");
-                page.addClass("pageshow");
+    // >>>>>>>>>>>>>>>>>> Click App to Open App <<<<<<<<<<<<<<<<<<<
+    // $(".page").each(function(){
+    //     //Click App to Open App
+    //     $(".apps").mousedown(function() {
+    //         $(this).find(".tiles").addClass("tilemousedown");
+    //         $(this).addClass("shake");
+    //         $(this).mouseup(function() {
+    //             var page = $(this).parent();
+    //             $(".page").removeClass("page");
+    //             $(".tilemousedown").removeClass("tilemousedown");
+    //             page.addClass("pageshow");
                 
-                page.addClass("opacity-0");
-                
-
-                
-                // alert("removingappsclass")
+    //             page.addClass("opacity-0");
                 
 
-                // alert("pageshowreached")
-            });
-        });
+                
+    //             // alert("removingappsclass")
+                
+
+    //             // alert("pageshowreached")
+    //         });
+    //     });
 
         // $(".page").each(function(){
         //   var interval;
