@@ -18,7 +18,8 @@ $(document).ready(function(){
                 $(".page").removeClass("page");
                 $(".tilemousedown").removeClass("tilemousedown");
                 page.addClass("pageshow");
-                page.children().hide();
+                
+                page.addClass("opacity-0");
                 
 
                 
@@ -33,8 +34,11 @@ $(document).ready(function(){
 
       //Click Homebutton to exit App
         $(".homebutton").click(function() { 
-          var page = $(this).find(".page");
-          page.children().show();
+          var page = $(this).find("pageshow");
+          $(".pageshow").removeClass("opacity-0");
+          
+          
+          
 
         });
       // var appName = $(this).find($("div.names")).text();

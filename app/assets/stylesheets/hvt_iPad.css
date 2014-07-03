@@ -176,13 +176,19 @@
 
 	}
 
-	.page{
+	.page, .pageshow {
 		position:relative;
 		background-color:transparent;	
-		margin: 0px 0px 0px auto;
+		margin: 15px 0px 0px auto;
 		width: 460px;	
 		height: 650px;
+	}
 
+	.opacity-0 {
+		opacity:0;
+	}
+	.opacity-1 {
+		opacity:1;
 	}
 	.apps{
 		
@@ -295,7 +301,7 @@
 	.homebutton{
 		position: absolute;
 
-		margin: 660px auto auto 214px;
+		margin: 5px auto auto 214px;
 
 		background-image: -webkit-radial-gradient(100% 0%, rgb(255, 255, 255), rgb(226, 226, 226));
 		width:35px;

@@ -1,20 +1,20 @@
 <div class="ipadcontainer background">
-    <div class="iphoneBezel">
-      <div class="ipad">
-        <div class="onbutton"></div>
-        <div class="sensor"></div>
-        <div class="camera"><div class="camsensor"></div></div>
-        <div class="lock"></div>
-        <div class ="volumeup"></div>
-        <div class="volumedown"></div>
-        <div class="headset"></div>
-        <div class="screen">
+  <div class="iphoneBezel">
+    <div class="ipad">
+      <div class="onbutton"></div>
+      <div class="sensor"></div>
+      <div class="camera"><div class="camsensor"></div></div>
+      <div class="lock"></div>
+      <div class ="volumeup"></div>
+      <div class="volumedown"></div>
+      <div class="headset"></div>
+      <div class="screen">
         <div class="menubar"> <div class="signal">•••••</div><% t = Time.now %> <%= t.strftime("%l")+":"+ t.strftime("%M") + "  " + t.strftime("%p") %>
         </div>
           <%= render 'layouts/page' %>
           <div class="homebutton">
-                    <div class="homesquare"></div>
+            <div class="homesquare"></div>
           </div>
-          </div>
-    </div>
+        </div>
+  </div>
 </div>
