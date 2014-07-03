@@ -274,6 +274,10 @@
 		font-size: 12px;
 	}
 
+	a:link {
+		text-decoration: none;
+	}
+
 	.dayOfWeek {
 		font-family: "HelveticaNeue-UltraLight", Helvetica, Arial, sans-serif;
 		padding-top: 6px;

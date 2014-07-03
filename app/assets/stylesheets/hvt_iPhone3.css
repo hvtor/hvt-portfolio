@@ -204,6 +204,13 @@
 
   }
 
+  a:link {
+    text-decoration: none;
+    color:#fff;
+  }
+  a:visited {
+    color:#fff;
+  }
   .page{
     background-color:transparent; 
     margin: 0px 0px 0px 7px;
@@ -246,6 +253,31 @@
     height:44px;
     border-radius:10px;
 
+  }
+
+  .instagram {
+    background-color: #3f729b;
+    font-size:16px;
+  }
+  .twitter {
+    background-color: #55acee;
+  }
+
+  .github {
+    background-color: #4183c4;
+  }
+
+  .youtube {
+    padding-left: 5px;
+    background-color: #e52d27;
+  }
+
+  .linkedin {
+    background-color: #0E76A8;
+    z-index: 1;
+  }
+  .resume {
+    background-color: #EE555E;
   }
 
 
