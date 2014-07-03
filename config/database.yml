@@ -1,3 +1,11 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: premium_group_development
+  pool: 5
+
+  port: 5432
+  
 production:
   adapter: postgresql
   encoding: unicode

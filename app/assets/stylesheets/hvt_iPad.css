@@ -25,7 +25,7 @@
 		font-size: 320%;
 		font-family: 'Leckerli One', cursive;
 		color: #fafafa;
-		text-shadow: 2px 2px #red, 3px 2px red, 2px 2px red, 2px 3px red;
+		text-shadow: 2px 2px red, 3px 2px red, 2px 2px red, 2px 3px red;
 		text-align: center;
 	}
 
@@ -209,8 +209,7 @@
 		width: 57px;
 		height: 57px;
 		border-radius:12px;
-		box-shadow: 0px 1px 0px 0px #272727
-		-webkit-background-origin:border;
+		box-shadow: 0px 1px 0px 0px #272727;
 
 	}
 
@@ -233,12 +232,20 @@
 		border-radius: 40px;
 	}
 
+	.instagram {
+		background-color: #3f729b;
+	}
+	.twitter {
+		background-color: #55acee;
+	}
+
 	.github {
-		background-color: #F6F6F6;
+		background-color: #4183c4;
 	}
 
 	.youtube {
-		padding-left: 9px;
+		padding-left: 5px;
+		background-color: #e52d27;
 	}
 
 	.linkedin {

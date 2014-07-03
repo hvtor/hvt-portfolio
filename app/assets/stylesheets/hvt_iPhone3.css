@@ -11,7 +11,7 @@
     font-size: 400%;
     font-family: 'Leckerli One', cursive;
     color: #fff;
-    text-shadow: 2px 2px #red, 3px 2px red, 2px 2px red, 2px 3px red;
+    text-shadow: 2px 2px red, 3px 2px red, 2px 2px red, 2px 3px red;
     text-align: center;
     width: 100%;
   }
@@ -55,7 +55,7 @@
 
     width: 270px;
     height: 562px;
-    background: -webkit-linear-gradient(8deg, rgba(255,255,255,1) 0%,rgba(247,247,247,1) 60%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -webkit-linear-gradient(8%, rgba(255,255,255,1) 0%,rgba(247,247,247,1) 60%,rgba(255,255,255,1) 60%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
     border-radius: 33px;
     border: 2px solid #E2E2E2;
     box-shadow: 1px -1px 15px -3px #fafafa;
